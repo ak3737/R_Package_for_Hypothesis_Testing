@@ -1,9 +1,4 @@
 # R_Package_for_Hypothesis_Testing
-# R Package for Hypothesis Testing
-
-**Duration:** Jan 2023 - May 2023
-
-**Affiliation:** Associated with University of Oklahoma
 
 ## Introduction
 
