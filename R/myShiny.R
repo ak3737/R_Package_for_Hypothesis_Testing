@@ -1,0 +1,39 @@
+#' @ shiny package for t test analysis
+#'
+#'
+#' @description Method for using the shiny app created for t test analysis.
+#'
+#'
+#'
+#'
+#'
+#' @return The shiny app will run and will show box plots for the input data
+#' show the results of t-test analysis
+#'
+#' @section shiny:
+#' The shiny web server will run once this function is invoked and will open a
+#'  web browser.
+#'
+#'  @section Shiny server:
+#' The server function is constructed using the following three steps:
+#'
+#' \enumerate{
+#' \item Must populate the output list
+#' \item Must use Render functions
+#' \item Must use the input list
+#' }
+#'
+#' @section Shiny reactivity:
+#'
+#' The main engine that drives \emph{shiny server} is the concept of
+#' \emph{reactivity} this is what makes shiny apps responsive.
+
+#' @export
+#'
+#' @examples
+#' \dontrun{shinyTtestAnalysis()}
+shinyTtestAnalysis <- function(){
+  shiny::runApp(system.file("shiny/ttestshiny",
+                            package = "ProjectPackageInstallment3")
+                ,launch.browser = TRUE)
+}

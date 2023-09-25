@@ -1,0 +1,28 @@
+Package: ProjectPackageInstallment3
+Type: Package
+Title: This package will test the NULL hypothesis that the underlying means of 
+       two populations are the same
+Version: 0.1.0
+Author: Amina Asghar
+Maintainer: The package maintainer <amina.asghar-1@ou.edu>
+Description: The packages is built for conducting t test analysis, and it will 
+             test the NULL hypothesis that the underlying means of the two 
+             populations are the same. The package has a constructor fuction a
+             print function, and a plot function. Both of these functions , 
+             print and plot are used so that ultimately we print the relevant 
+             information of t tests results  and get boxplots of the data.
+License: GPL-2
+Encoding: UTF-8
+LazyData: true
+Imports: 
+    dplyr, 
+    knitr, 
+    kableExtra,
+    ggplot2, 
+    shiny
+RoxygenNote: 7.2.3
+URL: https://github.com/aminaasghar/ProjectPackageInstallment3
+BugReports: https://github.com/aminaasghar/ProjectPackageInstallment3/issues
+VignetteBuilder: knitr
+Suggests: 
+    rmarkdown
